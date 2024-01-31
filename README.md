@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header&text=&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=35"/>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Ol%C3%A1%2C+me+chamo+Kau%C3%A3+Landi;Tenho+17+anos;Sou+Desenvolvedor+FullStack;Moro+no+Rio+de+Janeiro%2C+Brasil)<br>
+![Typing SVG](https://readme-typing-svg.herokuapp.com?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Ol%C3%A1%2C+me+chamo+Kau%C3%A3+Landi;Tenho+18+anos;Sou+Desenvolvedor+FullStack;Moro+no+Rio+de+Janeiro%2C+Brasil)<br>
 
 <div><br>
 <h2><a href="https://kaualf.com" target="_blank">🧑‍💻 kaualf.com</a></h2>
