@@ -27,7 +27,7 @@
   <a href="mailto:eu@kaualf.com" height="30" target="_blank">
     <img src="https://img.shields.io/badge/-email-c3002f?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
-  <a href="https://kauaalandi" height="30" target="_blank">
+  <a href="https://instagram.com/kauaalandi" height="30" target="_blank">
     <img src="https://img.shields.io/badge/-instagram-dc0141?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
 
