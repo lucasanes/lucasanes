@@ -18,17 +18,11 @@ export class ProjectsComponent implements OnInit {
   tecnologies = [
     'angular',
     'react',
-    'vanila',
     'nestjs',
     'nodejs',
     'nextjs',
     'express',
-    'mongodb',
-    'chatbot',
-    'prisma',
-    'php',
-    'python',
-    'django'
+    'java',
   ];
 
   ngOnInit(): void {

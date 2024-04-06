@@ -2,10 +2,14 @@
   "explorer.compactFolders": false,
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.codeActionsOnSave": { "source.fixAll.eslint": true }
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
   },
   "[typescript]": {
-    "editor.codeActionsOnSave": { "source.fixAll.eslint": true }
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
   },
   "files.associations": {
     ".sequelizerc": "javascript",

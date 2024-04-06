@@ -5,5 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './skills-other.component.html',
 })
 export class SkillsOtherComponent {
-  skills = ['Excel', 'Hackintosh', 'Hardware', 'Linux'];
+  terminal = ['Git', 'BitBucket', 'Terminal'];
+  ide = ['Visual Studio Code', 'IntelliJ IDEA', 'Eclipse'];
+  cloud = ['Vercel', 'Netlify', 'Railway'];
 }

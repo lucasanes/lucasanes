@@ -5,23 +5,34 @@ import { Component } from '@angular/core';
   templateUrl: './skills-main.component.html',
 })
 export class SkillsMainComponent {
-  skills = [
-    'JavaScript',
+  lenguages = [
     'TypeScript',
-    'SASS',
-    'Angular',
+    'JavaScript',
+    'Java',
+    'C#',
+    'C',
+    'HTML5',
+    'Sass',
+    'CSS3',
+    'JSON',
+  ];
+
+  frameworks = [
     'React',
-    'Design Responsivo',
-    'SEO',
-    'PHP',
-    'Prisma ORM',
+    'Next.js',
+    'Angular',
     'Node.js',
     'Express',
-    'MongoDB',
-    'Mongoose',
-    'NestJS',
-    'MySQL',
-    'GIT',
-    'GitHub',
+    'Nest.js',
+    'Spring Boot',
+    'Prisma',
+    'Vite',
+    'Tailwind CSS',
+    'Styled Components',
+    'JWT',
+    'Postam',
+    'NPM',
   ];
+
+  sql = ['PostgreSQL', 'MySQL', 'SQLite'];
 }

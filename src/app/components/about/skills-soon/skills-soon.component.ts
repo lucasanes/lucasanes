@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   templateUrl: './skills-soon.component.html',
 })
 export class SkillsSoonComponent {
-  skills = ['Python', 'DJango', 'Swift', 'C#', '.NET'];
+  skills = ['Python', 'Ruby', 'GO', 'Swift', '.NET'];
 }
