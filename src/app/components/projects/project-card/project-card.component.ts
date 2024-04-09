@@ -16,14 +16,19 @@ export class ProjectCardComponent {
   }
 
   filterTopics(): void {
-    if (this.repo.topics[0].includes('angular') 
-      || this.repo.topics[0].includes('nextjs') 
-      || this.repo.topics[0].includes('react')
-      || this.repo.topics[0].includes('nestjs')
-      || this.repo.topics[0].includes('express')
-      || this.repo.topics[0].includes('springboot')
-    ) {
-      this.topic = this.repo.topics[0];
+    for (let i = 0; i < this.repo.topics.length; i++) {
+      if (
+        this.repo.topics[i].includes('angular') ||
+        this.repo.topics[i].includes('nextjs') ||
+        this.repo.topics[i].includes('react') ||
+        this.repo.topics[i].includes('nestjs') ||
+        this.repo.topics[i].includes('express') ||
+        this.repo.topics[i].includes('springboot') ||
+        this.repo.topics[i].includes('config')
+      ) {
+        this.topic = this.repo.topics[i];
+        break;
+      }
     }
   }
 }
