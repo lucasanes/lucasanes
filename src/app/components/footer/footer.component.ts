@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class FooterComponent {
   year = new Date().getFullYear();
 
-  whatsapp = 'https://wa.me/5521999222644';
-  linkedin = 'https://www.linkedin.com/in/kaualandi/';
-  instagram = 'https://www.instagram.com/kauaalandi/';
-  github = 'https://github.com/kaualandi';
+  whatsapp = 'https://wa.me/5521972251252';
+  linkedin = 'https://www.linkedin.com/in/lucas-anes/';
+  instagram = 'https://www.instagram.com/anes.lucass/';
+  github = 'https://github.com/skyluke11';
 }

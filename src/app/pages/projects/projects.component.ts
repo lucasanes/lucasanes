@@ -16,13 +16,15 @@ export class ProjectsComponent implements OnInit {
   selectedTechs: string[] = [];
   hidden = true;
   tecnologies = [
+    'javascript',
+    'typescript',
     'angular',
     'react',
     'nestjs',
     'nodejs',
     'nextjs',
-    'express',
     'java',
+    'cordova'
   ];
 
   ngOnInit(): void {
@@ -31,7 +33,7 @@ export class ProjectsComponent implements OnInit {
 
   getRepos() {
     this.projectsService.getRepos().subscribe((repos) => {
-      this.reposBackup = repos.filter((repo) => !repo.fork);
+      this.reposBackup = repos;
       this.reloadFilters();
     });
   }
