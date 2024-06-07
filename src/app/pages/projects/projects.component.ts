@@ -23,7 +23,7 @@ export class ProjectsComponent implements OnInit {
     'nestjs',
     'nodejs',
     'nextjs',
-    'springboot',
+    'spring-boot',
     'java',
     'cordova'
   ];
