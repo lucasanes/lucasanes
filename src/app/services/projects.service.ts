@@ -10,7 +10,7 @@ export class ProjectsService {
 
   getRepos() {
     return this.http.get<IRepo[]>(
-      'https://api.github.com/users/skyluke11/repos'
+      'https://api.github.com/users/lucasanes/repos'
     );
   }
 }

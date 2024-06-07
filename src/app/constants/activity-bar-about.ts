@@ -80,9 +80,9 @@ export const ABOUT_ACTIVITY_BAR: IActivityBar[] = [
         external: true,
       },
       {
-        title: '/skyluke11',
+        title: '/lucasanes',
         icon: 'github',
-        route: 'https://github.com/skyluke11',
+        route: 'https://github.com/lucasanes',
         external: true,
       },
       {
