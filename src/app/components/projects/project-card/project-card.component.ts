@@ -23,7 +23,8 @@ export class ProjectCardComponent {
         this.repo.topics[i].includes('react') ||
         this.repo.topics[i].includes('nestjs') ||
         this.repo.topics[i].includes('express') ||
-        this.repo.topics[i].includes('springboot') ||
+        this.repo.topics[i].includes('spring-boot') ||
+        this.repo.topics[i].includes('java') ||
         this.repo.topics[i].includes('config')
       ) {
         this.topic = this.repo.topics[i];
