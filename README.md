@@ -9,6 +9,8 @@
 <div style="display:flex; gap:10px; flex-wrap:wrap">
   <img src="https://img.shields.io/badge/React-282828?style=for-the-badge&logo=react&logoColor=61DAFB">
   <img src="https://img.shields.io/badge/Next.js-282828?style=for-the-badge&logo=next.js&logoColor=000000">
+  <img src="https://img.shields.io/badge/React Native-282828?style=for-the-badge&logo=react&logoColor=61DAFB">
+  <img src="https://img.shields.io/badge/Flutter-282828?style=for-the-badge&logo=flutter&logoColor=61DAFB">
   <img src="https://img.shields.io/badge/Angular-282828?style=for-the-badge&logo=angular&logoColor=cb2b36">
   <img src="https://img.shields.io/badge/Node.js-282828?style=for-the-badge&logo=nodedotjs&logoColor=759f6a">
   <img src="https://img.shields.io/badge/Express-282828?style=for-the-badge&logo=express&logoColor=white">
@@ -26,6 +28,7 @@
   <img src="https://img.shields.io/badge/TypeScript-282828?style=for-the-badge&logo=typescript&logoColor=4373bb">
   <img src="https://img.shields.io/badge/JavaScript-282828?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
   <img src="https://img.shields.io/badge/Swift-282828?style=for-the-badge&logo=swift&logoColor=2f6ef4">
+  <img src="https://img.shields.io/badge/Dart-282828?style=for-the-badge&logo=dart&logoColor=2f6ef4">
   <img src="https://img.shields.io/badge/Java-282828?style=for-the-badge&logo=oracle&logoColor=d74139">
   <img src="https://img.shields.io/badge/C Sharp-282828?style=for-the-badge&logo=Csharp&logoColor=8a42a7">
   <img src="https://img.shields.io/badge/HTML5-282828?style=for-the-badge&logo=html5&logoColor=d45732">
