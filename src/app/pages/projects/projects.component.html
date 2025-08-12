@@ -27,7 +27,11 @@
         </div>
         <div class="projects-list">
           <div class="project" *ngFor="let repo of repos; let idx = index">
-            <p class="title blue"><b>Projeto {{idx+1}}</b> <span class="comment"> // {{repo.name}}</span></p>
+            <p class="title blue">
+              <b>Projeto {{idx+1}}</b> 
+              <br>
+              <span class="comment"> // {{repo.name}}</span>
+            </p>
             <app-project-card [repo]="repo" [technologies]="technologies"></app-project-card>
           </div>
         </div>

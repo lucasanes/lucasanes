@@ -2,6 +2,12 @@
   height: calc(100% - 1.5rem);
   position: relative;
 
+  .content {
+    max-height: calc(100vh - 120px);
+    height: 100%;
+    margin: 0 1rem;
+  }
+
   .thanks-page {
     height: 100%;
     width: 100%;

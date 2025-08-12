@@ -23,7 +23,9 @@ footer {
     overflow: auto;
 
     .copy {
-      border-right: 1px solid var(--line-color);
+      @media (min-width: 768px) {
+        border-right: 1px solid var(--line-color);
+      }
       padding-right: 18px;
       height: 48px;
       display: flex;
@@ -35,6 +37,10 @@ footer {
 
     .find-me {
       display: flex;
+
+      @media (max-width: 768px) {
+        display: none;
+      }
 
       p {
         display: flex;

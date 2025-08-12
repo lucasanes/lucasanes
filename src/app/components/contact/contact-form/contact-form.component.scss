@@ -6,6 +6,11 @@
     grid-template-columns: 1fr 1fr;
     height: 100%;
     max-height: calc(100vh - 125px - 1.5rem);
+
+    @media (max-width: 1024px) {
+      grid-template-columns: 1fr;
+    }
+
     .form-container {
       height: 100%;
       display: flex;
@@ -35,6 +40,10 @@
       align-items: center;
       padding: 2rem;
       overflow: auto;
+
+      @media (max-width: 1024px) {
+        display: none;
+      }
 
       .lines {
         .line {

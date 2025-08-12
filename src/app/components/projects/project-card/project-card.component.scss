@@ -3,6 +3,10 @@
   border-radius: calc(var(--br) * 2);
   border: 1px solid var(--line-color);
   background: var(--secondary-bg);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   p,
   span {

@@ -35,7 +35,7 @@ export class ProjectsComponent implements OnInit {
 
   getRepos() {
     this.projectsService.getRepos().subscribe((repos) => {
-      this.reposBackup = repos.filter(repo => repo.topics.length > 0);
+      this.reposBackup = repos.filter(repo => repo.topics.length > 0).filter(repo => !repo.topics.includes('hidden'));
       this.reloadFilters();
     });
   }

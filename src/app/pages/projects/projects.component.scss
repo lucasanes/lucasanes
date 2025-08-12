@@ -16,6 +16,11 @@ main {
       gap: 1rem;
       max-height: calc(100vh - 125px - 1.5rem);
       overflow: auto;
+
+      @media (max-width: 600px) {
+        grid-template-columns: 1fr;
+      }
+
       .project {
         & > p {
           margin-bottom: 0.5rem;

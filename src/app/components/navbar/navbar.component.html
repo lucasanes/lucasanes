@@ -18,13 +18,14 @@
         routerLink="/"
         routerLinkActive="active"
         [routerLinkActiveOptions]="{ exact: true }"
+        (click)="navbar_hidden = true"
         >_início</a
       >
-      <a mat-button routerLink="/about" routerLinkActive="active">_sobre</a>
-      <a mat-button routerLink="/projects" routerLinkActive="active"
+      <a mat-button routerLink="/about" routerLinkActive="active" (click)="navbar_hidden = true">_sobre</a>
+      <a mat-button routerLink="/projects" routerLinkActive="active" (click)="navbar_hidden = true"
         >_projetos</a
       >
-      <a mat-button routerLink="/contact" routerLinkActive="active">_contato</a>
+      <a mat-button routerLink="/contact" routerLinkActive="active" (click)="navbar_hidden = true">_contato</a>
     </div>
   </div>
 </nav>

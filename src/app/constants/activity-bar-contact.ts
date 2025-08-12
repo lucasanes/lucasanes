@@ -12,12 +12,6 @@ export const CONTACT_ACTIVITY_BAR: IActivityBar[] = [
         external: true,
       },
       {
-        title: '(21) 97225-1252',
-        icon: 'phone',
-        route: 'tel:+55 (21) 97225-1252',
-        external: true,
-      },
-      {
         title: 'sky.lucas003@gmail.com',
         icon: 'email',
         route: 'mailto:sky.lucas003@gmail.com',

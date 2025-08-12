@@ -27,9 +27,16 @@ export class AboutComponent implements OnInit {
     this.activeFile = file;
   }
 
+  deactivatePage() {
+    this.activeFile = {} as IActivityBarFile;
+  }
+
   findActivePageByRoute() {
     const route = this.router.url;
     this.activityBar.forEach(({ files, folders }) => {
+
+      this.deactivatePage();
+
       files.forEach((file) => {
         if (file.route === route) {
           this.activePage(file);
