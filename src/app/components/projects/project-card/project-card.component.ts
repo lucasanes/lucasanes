@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { IRepo } from 'src/app/models/projects';
 
 @Component({
@@ -6,8 +6,9 @@ import { IRepo } from 'src/app/models/projects';
   templateUrl: './project-card.component.html',
   styleUrls: ['./project-card.component.scss'],
 })
-export class ProjectCardComponent {
+export class ProjectCardComponent implements OnInit {
   @Input() repo = {} as IRepo;
+  @Input() technologies: string[] = [];
 
   topic: string = '';
 
@@ -16,20 +17,14 @@ export class ProjectCardComponent {
   }
 
   filterTopics(): void {
-    for (let i = 0; i < this.repo.topics.length; i++) {
-      if (
-        this.repo.topics[i].includes('angular') ||
-        this.repo.topics[i].includes('nextjs') ||
-        this.repo.topics[i].includes('react') ||
-        this.repo.topics[i].includes('nestjs') ||
-        this.repo.topics[i].includes('express') ||
-        this.repo.topics[i].includes('spring-boot') ||
-        this.repo.topics[i].includes('java') ||
-        this.repo.topics[i].includes('config')
-      ) {
-        this.topic = this.repo.topics[i];
-        break;
+    for (let i = 0; i < this.technologies.length; i++) {
+      const tech = this.technologies[i];
+      if (this.repo.topics.includes(tech)) {
+        this.topic = tech;
+        return; 
       }
     }
+    
+    this.topic = this.repo.topics[0];
   }
 }

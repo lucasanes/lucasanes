@@ -10,7 +10,7 @@
                 tecnologias
               </mat-panel-title>
             </mat-expansion-panel-header>
-            <mat-checkbox color="primary" *ngFor="let tech of tecnologies"
+            <mat-checkbox color="primary" *ngFor="let tech of technologies"
               (change)="handleChangeFilterTechStatus(tech, $event)">{{tech}}</mat-checkbox>
           </mat-expansion-panel>
         </div>
@@ -28,7 +28,7 @@
         <div class="projects-list">
           <div class="project" *ngFor="let repo of repos; let idx = index">
             <p class="title blue"><b>Projeto {{idx+1}}</b> <span class="comment"> // {{repo.name}}</span></p>
-            <app-project-card [repo]="repo"></app-project-card>
+            <app-project-card [repo]="repo" [technologies]="technologies"></app-project-card>
           </div>
         </div>
       </div>

@@ -15,15 +15,17 @@ export class ProjectsComponent implements OnInit {
   reposBackup: IRepo[] = [];
   selectedTechs: string[] = [];
   hidden = true;
-  tecnologies = [
-    'javascript',
-    'typescript',
-    'angular',
-    'react',
+  technologies = [
     'nestjs',
     'nodejs',
     'nextjs',
+    'react',
+    'angular',
+    'springboot',
     'java',
+    'python',
+    'javascript',
+    'typescript',
     'cordova'
   ];
 
@@ -33,7 +35,7 @@ export class ProjectsComponent implements OnInit {
 
   getRepos() {
     this.projectsService.getRepos().subscribe((repos) => {
-      this.reposBackup = repos;
+      this.reposBackup = repos.filter(repo => repo.topics.length > 0);
       this.reloadFilters();
     });
   }

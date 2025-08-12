@@ -10,15 +10,15 @@ export const ABOUT_ACTIVITY_BAR: IActivityBar[] = [
         color: 'var(--accent-orange)',
         files: [
           {
-            title: 'resumo',
+            title: 'sobre-mim',
             icon: 'markdown',
-            route: '/about/bio/resume',
+            route: '/about/bio/about-me',
             external: false,
           },
-          {
-            title: 'conheça-me',
+             {
+            title: 'experiencia',
             icon: 'markdown',
-            route: '/about/bio/know-me',
+            route: '/about/bio/experience',
             external: false,
           },
         ],
@@ -50,47 +50,5 @@ export const ABOUT_ACTIVITY_BAR: IActivityBar[] = [
       },
     ],
     files: [],
-  },
-  {
-    title: 'contatos',
-    folders: [],
-    files: [
-      {
-        title: '(21) 97225-1252',
-        icon: 'whatsapp',
-        route: 'https://wa.me/5521972251252',
-        external: true,
-      },
-      {
-        title: '(21) 97225-1252',
-        icon: 'phone',
-        route: 'tel:+55 (21) 97225-1252',
-        external: true,
-      },
-      {
-        title: 'sky.lucas003@gmail.com',
-        icon: 'email',
-        route: 'mailto:sky.lucas003@gmail.com',
-        external: true,
-      },
-      {
-        title: '/in/lucas-anes',
-        icon: 'linkedin',
-        route: 'https://www.linkedin.com/in/lucas-anes/',
-        external: true,
-      },
-      {
-        title: '/lucasanes',
-        icon: 'github',
-        route: 'https://github.com/lucasanes',
-        external: true,
-      },
-      {
-        title: '@anes.lucass',
-        icon: 'instagram',
-        route: 'https://instagram.com/anes.lucass',
-        external: true,
-      },
-    ],
-  },
+  }
 ];

@@ -10,7 +10,6 @@ export class SkillsMainComponent {
     'JavaScript',
     'Java',
     'C#',
-    'C',
     'HTML5',
     'Sass',
     'CSS3',
@@ -18,21 +17,20 @@ export class SkillsMainComponent {
   ];
 
   frameworks = [
-    'React',
-    'Next.js',
-    'Angular',
-    'Node.js',
+    'NestJS',
     'Express',
-    'Nest.js',
+    'NextJS',
+    'React',
+    'Angular',
     'Spring Boot',
+  ];
+  
+  libs = [
+    'TypeORM',
     'Prisma',
-    'Vite',
     'Tailwind CSS',
     'Styled Components',
     'JWT',
-    'Postam',
     'NPM',
-  ];
-
-  sql = ['PostgreSQL', 'MySQL', 'SQLite'];
+  ]
 }
