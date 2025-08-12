@@ -6,6 +6,7 @@
     grid-template-columns: 1fr 1fr;
     height: 100%;
     max-height: calc(100dvh - 125px - 1.5rem);
+    overflow-y: auto;
 
     @media (max-width: 1024px) {
       grid-template-columns: 1fr;
