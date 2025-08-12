@@ -8,7 +8,7 @@
   border-radius: var(--br);
   border: 1px solid var(--line-color);
   width: 100%;
-  height: calc(100vh - 122px);
+  height: calc(100dvh - 122px);
   display: grid;
   grid-template-columns: minmax(250px, 16%) 1fr;
   position: relative;
@@ -20,7 +20,7 @@
   .activity-bar {
     overflow: auto;
     height: 100%;
-    max-height: calc(100vh - 125px);
+    max-height: calc(100dvh - 125px);
     border-right: 1px solid var(--line-color);
     z-index: 2;
 
@@ -200,7 +200,7 @@
       }
     }
     .file {
-      max-height: calc(100vh - 125px - 1.5rem);
+      max-height: calc(100dvh - 125px - 1.5rem);
       overflow: auto;
       .no-file {
         padding: 2rem;
@@ -208,7 +208,7 @@
         flex-direction: column;
         justify-content: center;
         gap: 2rem;
-        height: calc(100vh - 125px - 1.5rem);
+        height: calc(100dvh - 125px - 1.5rem);
 
         i,
         p {

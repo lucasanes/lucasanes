@@ -1,7 +1,7 @@
 main {
   overflow: hidden;
   .content {
-    max-height: calc(100vh - 120px);
+    max-height: calc(100dvh - 120px);
     height: 100%;
     margin: 0 1rem;
     .file-name {
@@ -14,7 +14,7 @@ main {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 1rem;
-      max-height: calc(100vh - 125px - 1.5rem);
+      max-height: calc(100dvh - 125px - 1.5rem);
       overflow: auto;
 
       @media (max-width: 600px) {

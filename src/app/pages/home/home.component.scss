@@ -5,7 +5,7 @@ main {
   .content {
     margin: 0 auto;
     max-width: 1024px;
-    min-height: calc(100vh - 114px);
+    min-height: calc(100dvh - 114px);
     display: flex;
     align-items: center;
     justify-content: space-between;
